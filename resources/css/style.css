@@ -1,0 +1,178 @@
+/* Universal Styles */
+html{
+  font-size: 16px;
+}
+
+.container {
+  border: 1px black solid;
+  display: flex;
+}
+
+.big-container, .small-container, .course {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.more-info, .course, .thesis {
+  display: flex;
+}
+
+/* Navigation Header */
+header {
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.logo, .menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.menu ul{
+  display: flex;
+}
+
+nav ul li{
+  display: inline-block;
+  justify-content: flex-end;
+  padding-left: 2rem;
+}
+
+
+/* CTA Banner */
+.cta .container{
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  justify-content: flex-start;
+}
+
+.image-cta{
+  display: inline-block;
+  width: 60%;
+  overflow: hidden;
+  height: auto;
+ padding: 2rem 1.5rem;
+}
+
+.image-cta img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-cta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.button{
+  display: flex;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+}
+
+/* Info */
+.big-container {
+  padding: 2rem 1.5rem;
+  width: 65%;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.big-container img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.thumbnail {
+  width: 35%;
+}
+
+.thumbnail img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 1rem 1rem;
+}
+
+.detail{
+  width: 65%;
+  display: inline-block;
+}
+
+.detail p{
+  padding: .5rem 1rem;
+}
+
+/* Courses */
+.courses{
+    background-color: lightgray;
+}
+
+.courses h2{
+  padding-top: 32px;
+  text-align: center;
+}
+.courses .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem 4rem;
+}
+
+.course {
+width: 30%;
+height: auto;
+margin: 1rem .5rem;
+}
+
+.course .image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.course .image img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.course .description{
+  background-color: white;
+}
+
+.description h3 {
+  padding: 1rem 1rem;
+}
+
+.description span{
+  padding: .5rem 1rem;
+}
+
+.description p{
+  padding: 1.5rem 1rem;
+  margin: none;
+}
+
+/* Thesis */
+.big-container video{
+  width: 100%;
+  height: auto;
+  display: block;
+}
