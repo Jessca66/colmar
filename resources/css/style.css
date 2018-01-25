@@ -1,10 +1,25 @@
 /* Universal Styles */
 html{
   font-size: 16px;
+  font-family: montserrat;
+  color: #333333;
 }
 
+h1, h2{
+  color: RGB(0, 173, 174);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+
+h3{
+  color: RGB(0, 131, 180);
+  font-size: 1.2rem;
+}
+
+
 .container {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   display: flex;
 }
 
@@ -16,6 +31,7 @@ html{
 
 .more-info, .course, .thesis {
   display: flex;
+  border-bottom: 1px darkgray solid;
 }
 
 /* Navigation Header */
@@ -23,6 +39,8 @@ header {
   display: flex;
   height: 4rem;
   justify-content: space-between;
+  background-color: RGB(0, 173, 174);
+  z-index: 1;
 }
 
 .logo, .menu{
@@ -47,8 +65,9 @@ nav ul li{
 .cta .container{
   display: flex;
   align-items: center;
-  background-color: lightgray;
+  background-color: #f2f2f2;
   justify-content: flex-start;
+  width: 100%;
 }
 
 .image-cta{
@@ -69,16 +88,20 @@ nav ul li{
   display: flex;
   flex-direction: column;
   text-align: left;
+  width: 30%;
+
 }
 
 .button{
-  display: flex;
-  background-color: darkgray;
-  color: white;
+  display: inline-block;
+  background-color: rgb(0, 173, 174);
   text-align: center;
   align-items: center;
   justify-content: center;
   padding: .5rem;
+  width: 76%;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
 
 /* Info */
@@ -97,31 +120,32 @@ nav ul li{
   height: auto;
   display: block;
 }
-
+.small-container{
+  width: 40%;
+  margin-top: 2rem;
+}
 
 .thumbnail {
   width: 35%;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  height: auto;
 }
 
 .thumbnail img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
   display: block;
-  padding: 1rem 1rem;
 }
 
 .detail{
   width: 65%;
-  display: inline-block;
-}
-
-.detail p{
+  display: block;
   padding: .5rem 1rem;
 }
 
 /* Courses */
 .courses{
-    background-color: lightgray;
+    background-color: #f2f2f2;
 }
 
 .courses h2{
@@ -167,7 +191,6 @@ margin: 1rem .5rem;
 
 .description p{
   padding: 1.5rem 1rem;
-  margin: none;
 }
 
 /* Thesis */
@@ -175,4 +198,8 @@ margin: 1rem .5rem;
   width: 100%;
   height: auto;
   display: block;
+}
+
+.thesis-exhibit h2{
+  text-align: center;
 }
