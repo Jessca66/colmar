@@ -69,7 +69,7 @@ nav ul li:hover{
   display: none;
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 470px) {
   .logo, .menu{
     display: none
   }
@@ -143,7 +143,7 @@ nav ul li:hover{
   color: rgb(110, 180, 63);
 }
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 470px){
   .cta {
     display: flex;
     flex-direction: column;
@@ -234,7 +234,7 @@ nav ul li:hover{
   display: none;
 }
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 470px){
   .info .container .big-container {
     display: none;
   }
@@ -338,7 +338,7 @@ flex-direction: column;
 .mobile-course{
   display: none;
 }
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 470px){
   .course {
     display: none;
   }
@@ -398,7 +398,7 @@ flex-direction: column;
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 470px){
   .thesis-exhibit .small-container{
     display: none;
   }
@@ -444,7 +444,7 @@ footer ul li{
   padding: .8rem 2rem;
 }
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 470px){
   footer ul{
     display: none;
   }
